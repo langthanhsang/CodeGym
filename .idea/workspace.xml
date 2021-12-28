@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1b77c9c-d49a-467c-8dad-61907dafc791" name="Changes" comment="add file" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ArrayList/src/btvn" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22ffTdb5dkGercHUhnohAOhXkIM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main (5)">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="btvn.minirest.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="btvn.minirest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="btvn.bt2.exam.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="btvn.bt2.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="btvn.bt3.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="btvn.bt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="btvn.bt1.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="btvn.bt1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="btvn.bai3.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="btvn.bai3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1b77c9c-d49a-467c-8dad-61907dafc791" name="Changes" comment="" />
+      <created>1640233571151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640233571151</updated>
+      <workItem from="1640233573344" duration="66000" />
+      <workItem from="1640241765942" duration="5851000" />
+      <workItem from="1640265927090" duration="449000" />
+      <workItem from="1640335437633" duration="12286000" />
+      <workItem from="1640361688959" duration="61000" />
+      <workItem from="1640362201126" duration="24351000" />
+      <workItem from="1640446656922" duration="6940000" />
+      <workItem from="1640487398530" duration="116000" />
+      <workItem from="1640490153387" duration="75000" />
+      <workItem from="1640492414931" duration="790000" />
+      <workItem from="1640509264249" duration="1329000" />
+      <workItem from="1640514671068" duration="78000" />
+      <workItem from="1640514993283" duration="7812000" />
+      <workItem from="1640534913928" duration="2865000" />
+      <workItem from="1640569719877" duration="31000" />
+      <workItem from="1640569853051" duration="257000" />
+      <workItem from="1640570159713" duration="322000" />
+      <workItem from="1640577424117" duration="301000" />
+      <workItem from="1640578765850" duration="66000" />
+      <workItem from="1640580530644" duration="348000" />
+      <workItem from="1640580885461" duration="2000" />
+      <workItem from="1640581596393" duration="915000" />
+      <workItem from="1640586241194" duration="1045000" />
+      <workItem from="1640598052252" duration="8519000" />
+      <workItem from="1640681251997" duration="1944000" />
+    </task>
+    <task id="LOCAL-00001" summary="add file">
+      <created>1640681609987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640681609987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Codegym$Main.ic" NAME="Main Coverage Results" MODIFIED="1640362224601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>btvn.bt1.*</FILTER>
+    </SUITE>
+  </component>
+</project>

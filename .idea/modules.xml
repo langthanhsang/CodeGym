@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codegym.iml" filepath="$PROJECT_DIR$/Codegym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSAStackQueu/DSAStackQueu.iml" filepath="$PROJECT_DIR$/DSAStackQueu/DSAStackQueu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled3/apj-shape/apj-shape.iml" filepath="$PROJECT_DIR$/untitled3/apj-shape/apj-shape.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap/baitap.iml" filepath="$PROJECT_DIR$/baitap/baitap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luyenTap/luyenTap.iml" filepath="$PROJECT_DIR$/luyenTap/luyenTap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuatToanTimKiem/thuatToanTimKiem.iml" filepath="$PROJECT_DIR$/thuatToanTimKiem/thuatToanTimKiem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thuatToansapxep/thuatToansapxep.iml" filepath="$PROJECT_DIR$/thuatToansapxep/thuatToansapxep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled2/untitled2.iml" filepath="$PROJECT_DIR$/untitled2/untitled2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled4/untitled4.iml" filepath="$PROJECT_DIR$/untitled4/untitled4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled7/untitled7.iml" filepath="$PROJECT_DIR$/untitled7/untitled7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wellcom/wellcom.iml" filepath="$PROJECT_DIR$/wellcom/wellcom.iml" />
+    </modules>
+  </component>
+</project>
