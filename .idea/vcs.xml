@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ JavaCollectionFramework/src/baitap" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ JavaCollectionFramework/src/bt" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ArrayList/src/btapmini" vcs="Git" />
@@ -11,6 +12,7 @@
     <mapping directory="$PROJECT_DIR$/Helloword/src/lesson1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Helloword/src/mang" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/luyenTap/src/baitapabc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/untitled3" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/untitled3/apj-shape" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/untitled4 copy/src/minitest" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/untitled4/src/minitest" vcs="Git" />
