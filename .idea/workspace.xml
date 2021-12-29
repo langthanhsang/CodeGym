@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b77c9c-d49a-467c-8dad-61907dafc791" name="Changes" comment="refactor folder root all project">
-      <change afterPath="$PROJECT_DIR$/tuan 9/src/BUOI41/thuchanh/abcãy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan 9/src/BUOI41/thuchanh/abcãy.java" beforeDir="false" afterPath="$PROJECT_DIR$/tuan 9/src/BUOI41/thuchanh/abcãy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +57,13 @@
       <recent name="$PROJECT_DIR$/tuan9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="btvn.minirest.Main" />
-      <module name="ArrayList" />
+  <component name="RunManager" selected="Application.baitapMail">
+    <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="th1.a.EmailExampleTest" />
+      <module name="tuan 9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="btvn.minirest.*" />
+          <option name="PATTERN" value="th1.a.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,38 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam.Main" />
-      <module name="ArrayList" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1.Main" />
+      <module name="tuan 9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="btvn.bt2.exam.Main" />
-      <module name="ArrayList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="btvn.bt2.exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="btvn.bt3.Main" />
-      <module name="ArrayList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="btvn.bt3.*" />
+          <option name="PATTERN" value="bai1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="btvn.bt1.Main" />
-      <module name="ArrayList" />
+      <option name="MAIN_CLASS_NAME" value="btdemo.Main" />
+      <module name="tuan 9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="btvn.bt1.*" />
+          <option name="PATTERN" value="btdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +110,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="baitapMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bài1.b.baitapMail" />
+      <module name="tuan 9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bài1.b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="luyentap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai1.luyentap" />
+      <module name="tuan 9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.baitapMail" />
+        <item itemvalue="Application.EmailExampleTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.luyentap" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,10 @@
       <workItem from="1640581596393" duration="915000" />
       <workItem from="1640586241194" duration="1045000" />
       <workItem from="1640598052252" duration="8519000" />
-      <workItem from="1640681251997" duration="3827000" />
+      <workItem from="1640681251997" duration="4220000" />
+      <workItem from="1640686054842" duration="38000" />
+      <workItem from="1640686129000" duration="15034000" />
+      <workItem from="1640753547455" duration="6127000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1640681609987</created>
@@ -206,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640685443597</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor folder root all project">
+      <created>1640685613629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640685613629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
