@@ -1,63 +1,86 @@
 package bt4;
 
-import java.sql.SQLOutput;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ManagerStuent {
+public static final String PATH_NAME = "/Volumes/WorkSpace/Codegym/ArrayList/src/bt4/students.csv";
     Scanner scanner = new Scanner(System.in);
     ArrayList<Student> students = new ArrayList<>();
 
-    public Student createStudent() {
+    public void studentManager(){
+    }
+    public ManagerStuent(){
+        this.students = readFile(PATH_NAME);
+    }
+
+    private ArrayList<Student> readFile(String pathName) {
+        return students;
+    }
+
+    public void createStudent(Scanner scanner) {
+        scanner.nextLine();
         System.out.println("nhập tên: ");
         String name = scanner.nextLine();
         System.out.println("nhập tuổi: ");
         int age = scanner.nextInt();
+        scanner.nextLine();
         System.out.println("nhập giới tính: ");
         String gender = scanner.nextLine();
         System.out.println("nhập địa chỉ: ");
         String address = scanner.nextLine();
         System.out.println("nhập điểm : ");
         double averagePoint = scanner.nextDouble();
-        return new Student(name, age, gender, address, averagePoint);
+        scanner.nextLine();
+        Human student = new Student(name,age,gender,address,averagePoint);
+        students.add((Student)student);
     }
 
-    public boolean addStuent(Student student) {
-        return students.add(student);
-    }
 
-    public void deleteStudent(String name) {
-        for (Student s : students) {
-            if (s.getName().equals(name)) {
-                students.remove(s);
-            }
-        }
-    }
-
-    public void updatebByName(String name, Scanner sc) {
+    public Student deleteStudent(String name) {
         Student student = null;
         for (Student s : students) {
-            student = s;
-            if (student.getName().equals(name)) {
-                System.out.println("nhập tuổi mói :");
-                student.setAge(sc.nextInt());
-                System.out.println("nhập gới tính mới :");
-                student.setGender(sc.nextLine());
-                System.out.println("nhập địa chỉ mới:");
-                student.setAddress(sc.nextLine());
-                System.out.println("nhập điểm mới");
-                student.setAveragePoint(sc.nextDouble());
+            if (s.getName().equals(name)) {
+                student = s;
+            }
+        }
+        if(student != null) {
+            students.remove(student);
+        }
+        return student;
+    }
 
-                Student student1 = new Student(s.getName(), s.getAge(), s.getGender(), s.getAddress(), s.getAveragePoint());
-                students.set(Integer.parseInt(name), student1);
+    public void updatebByName(Scanner sc) {
+        Student student = null;
+        String name = scanner.nextLine();
+        for (Student studentUpdate : students) {
+
+            if (student.getName().equals(name)) {
+                studentUpdate = student;
+                scanner.nextLine();
+                System.out.println("nhập tuổi mói :");
+                studentUpdate.setAge(sc.nextInt());
+
+                scanner.nextLine();
+                System.out.println("nhập gới tính mới :");
+                studentUpdate.setGender(sc.nextLine());
+
+                System.out.println("nhập địa chỉ mới:");
+                studentUpdate.setAddress(sc.nextLine());
+
+                System.out.println("nhập điểm mới");
+                studentUpdate.setAveragePoint(sc.nextDouble());
+
+
             }
         }
 
     }
 
     public void displayAll() {
-        for (Student stundet : students) {
-            System.out.println(stundet);
+        for (Student stundent : students) {
+            System.out.println(stundent);
         }
     }
 
@@ -68,17 +91,18 @@ public class ManagerStuent {
                 Diem.add(student);
             }
         }
-        for (Student student: Diem) {
+        for (Student student : Diem) {
             System.out.println(student);
         }
         return Diem;
     }
-    public void displayStudent() {
+
+    public void displayStudentBXH() {
         for (int i = 0; i < students.size(); i++) {
-            if(students.get(i).getAveragePoint() >= 8) {
-                System.out.println(students.get(i).getName() + " - " + students.get(i).getAveragePoint() + " - "+ "Loại Giỏi");
+            if (students.get(i).getAveragePoint() >= 8) {
+                System.out.println(students.get(i).getName() + " - " + students.get(i).getAveragePoint() + " - " + "Loại Giỏi");
             } else if (students.get(i).getAveragePoint() < 8 && students.get(i).getAveragePoint() >= 6) {
-                System.out.println(students.get(i).getName() + " - " + students.get(i).getAveragePoint() + " - "+ "Loại Khá");
+                System.out.println(students.get(i).getName() + " - " + students.get(i).getAveragePoint() + " - " + "Loại Khá");
             } else if (students.get(i).getAveragePoint() < 6 && students.get(i).getAveragePoint() >= 4.5) {
                 System.out.println(students.get(i).getName() + " - " + students.get(i).getAveragePoint() + " - " + "Loại Trung Bình");
             } else if (students.get(i).getAveragePoint() < 4.5) {
@@ -87,5 +111,29 @@ public class ManagerStuent {
         }
     }
 
-    
+    public void writeListStudent(ArrayList<String> nameList, String PathName) throws IOException {
+        Writer out;
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(PathName));
+        for (String string : nameList) {
+            bufferedWriter.write(string + "\n");
+        }
+        bufferedWriter.close();
+    }
+
+    public void readStudent(String pathName) throws IOException {
+        File file;
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(pathName));
+        String line;
+        while ((line = bufferedReader.readLine()) != null) {
+            System.out.println(line);
+        }
+    }
+
+    public ArrayList<String> nameList() {
+        ArrayList<String> strings = new ArrayList<>();
+        for (Student student : students) {
+            strings.add(student.getName());
+        }
+        return strings;
+    }
 }
