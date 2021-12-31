@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b77c9c-d49a-467c-8dad-61907dafc791" name="Changes" comment="add filer">
+      <change afterPath="$PROJECT_DIR$/tuan 9/src/th/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan 9/src/th/AnimalFectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan 9/src/th/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan 9/src/th/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/bt4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/bt4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayList/src/bt4/ManagerStuent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayList/src/bt4/ManagerStuent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/minitets5/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/minitets5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/minitets5/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayList/src/minitets5/StudentManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +56,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="th2" />
       <recent name="minitets5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tuan9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="EmailExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="th1.a.EmailExampleTest" />
+  <component name="RunManager" selected="Application.FactoryDemo">
+    <configuration name="FactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="th.FactoryDemo" />
       <module name="tuan 9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="th1.a.*" />
+          <option name="PATTERN" value="th.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +121,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="minitest5.Main" />
+      <module name="ArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="minitest5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="btvn.bai3.Main" />
       <module name="ArrayList" />
       <extension name="coverage">
@@ -126,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="baitapMail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bài1.b.baitapMail" />
-      <module name="tuan 9" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bài1.b.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDemo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.baitapMail" />
-        <item itemvalue="Application.EmailExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +191,8 @@
       <workItem from="1640681251997" duration="4220000" />
       <workItem from="1640686054842" duration="38000" />
       <workItem from="1640686129000" duration="15034000" />
-      <workItem from="1640753547455" duration="23236000" />
+      <workItem from="1640753547455" duration="31841000" />
+      <workItem from="1640881865077" duration="7445000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1640681609987</created>
@@ -228,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640765286047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add filer">
+      <created>1640852822150</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640852822150</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
